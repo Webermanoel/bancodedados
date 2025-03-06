@@ -10,7 +10,7 @@ def armazenador_idades():
 
     while len(idades) < 10:
         try:
-            idade = int(input(f"Digite uma idade ({len(idades) + 1}/10): "))  # Solicita idade
+            idade = int(input(f"Digite uma idade ({len(idades) + 1}/10): "))
 
             if idade < 0:
                 print("Idade não pode ser negativa! Tente novamente.")
